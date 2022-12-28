@@ -1,0 +1,171 @@
+html, body{
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+    height: 100%;
+}
+
+.cod-grp{
+    width: 50%;
+    height: 70%;
+
+}
+
+.title{
+    width: 100%;
+    letter-spacing: 10px;
+}
+
+.title-txt{
+    margin: auto;
+    text-align: center;
+}
+
+.input{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{
+    margin: 0 0 0 2%;
+}
+
+.input-txt{
+    width: 70%;
+    height: 60%;
+    border-radius: 6px;
+    font-size: 25px;
+    border: none;
+    outline: 1px solid;
+    outline-offset: 10px;
+    margin: 15px;
+	background-color: #ffffff;
+}
+
+.input-txt:hover {
+    outline: 4px solid #0607ff;
+}
+
+.action-btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    background-color: #000dff73;
+    width: 25%;
+    padding: 10px 0px;
+    border-radius: 16px;
+    font-size: 15px;
+    margin: 10px;
+    border: none;
+	pointer-events: all;
+}
+
+.btn:hover {
+    background-color: #0003bb;
+    color: white;
+    font-weight: bold;
+
+}
+
+.result{
+    width: 100%;
+    height:50%;
+}
+
+.result-txt{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result-output{
+    width: 70%;
+    height: 85%;
+    border-radius: 6px;
+    font-size: 25px;
+    border: none;
+    outline: 1px solid;
+    outline-offset: 10px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.alert-cop{
+    color: red;
+    text-align: center;
+}
+
+.result-btn{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-corp{
+    width: 100%;
+    height: 5%;
+}
+
+.corp-txt{
+    margin: auto;
+    text-align: center;
+}
+
+@media screen and (max-width:320px){
+
+	.title{
+		font-size: 4px;
+		letter-spacing: normal;
+	}
+
+	h3{
+		font-size: 4px;
+		margin: 2% 0 0 0;
+	}
+
+	.input-txt {
+		font-size: 6px;
+		outline: 0.5px solid;
+		outline-offset: 2px;
+		margin: 4px;
+	}
+
+	.input-txt:hover {
+		outline: 1px solid #0607ff;
+	}
+
+	.btn{
+		padding: 2px 0px;
+		border-radius: 7px;
+		font-size: 4px;
+		margin: 0 3% 0% 3%;
+		border: none;
+	}
+
+	.result-output{
+		border-radius: 6px;
+		font-size: 7px;
+		border: none;
+		outline: 0.5px solid;
+		outline-offset: 4px;
+		margin: 5px;
+	}
+
+	.corp-txt{
+		font-size: 5px;
+	}
+
+}
