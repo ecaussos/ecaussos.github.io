@@ -5,27 +5,50 @@ html, body{
     height: 100%;
 }
 
+.backgrd{
+    display: flex;
+    justify-content: center;
+}
+
+.img-backgrd{
+    position: fixed;
+}
+
 .cod-grp{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .title{
     text-align: center;
     letter-spacing: 10px;
+    color: #ffffff;
 }
 
-h3{
+h3, p{
     margin: 0;
+    color: #ffffff;
+	text-shadow: 
+               -1px -1px 0px #000,
+               -1px 1px 0px #000,
+                1px -1px 0px #000,
+                1px 0px 0px #000;
 }
 
 .input-txt, .result-output{
     width: 550px;
     margin: 10px;
     padding: 10px;
+    border: 2px solid #000000;
     border-radius: 10px;
     font-size: 25px;
+    background-color: #ffffff78;
+}
+
+.input-txt:hover{
+    border: 5px solid #0003bb;
 }
 
 .result-output{
@@ -46,9 +69,9 @@ h3{
     margin: 10px;
     padding: 10px 0px;
     border-radius: 16px;
+    border: 2px solid #000000;
     font-size: 20px;
     background-color: #000dff73;
-    border: none;
     pointer-events: all;
 }
 
